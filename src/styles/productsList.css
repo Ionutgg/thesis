@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap the items to a new line */
+
+  }
+  
+  .itemProduct {
+    border:1px solid black;
+    margin: 10px; /* Add some margin around each picture */
+    text-align: center; /* Center the content (label) horizontally */
+    width: 175px;
+    height: 250px;
+  }
+  
+  .itemProduct img {
+    border:1px solid black;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 150px;
+    height: 175px;
+  }
+  
+  .itemProduct label {
+    font-weight: bold; /* Optional: Apply styling to the label, such as making it bold */
+    padding-bottom: 10px;
+  }
+  
