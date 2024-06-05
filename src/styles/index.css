@@ -1,0 +1,255 @@
+.label {
+    color: white;
+    padding: 8px;
+    font-family: Arial;
+    width: 110px;
+  }
+
+  .img{
+    width: 300px;
+    height: 350px;
+    float: right;
+  }
+  .success {background-color: #04AA6D;}
+  .info {background-color: #2196F3;}
+  .warning {background-color: #ff9800;} 
+  .danger {background-color: #f44336;} 
+  .other {background-color: #e7e7e7; color: black;}
+
+  .app{
+    text-align: center;
+    
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form input{
+    width: 300px;
+  }
+
+.desciprion{
+  width: 100%;
+  height: 100px;
+}
+
+.workCenter{
+  margin-left: 100px;
+  margin-top: 30px;  
+}
+
+.wcLabel{
+  border: 1px solid;
+  margin-bottom: 10px;
+  width: 600px;
+}
+
+.wcCheck{
+  margin-left: 10px;
+}
+
+.wcText{
+  width: 50px;
+  margin-left: 10px;
+}
+
+.labelAddClients{
+  width: 110px;
+  margin-top: 20px;
+}
+
+.clientList{
+  border: 1px solid;
+  border-left: 0;
+  border-top: 0;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.clientListModel{
+  border: 1px solid;
+  border-left: 0;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 45px;
+}
+
+.clientListName{
+  border-left: 1px solid;
+  margin-right: 150px;
+  width: 100px;
+}
+.clientListNameModel{
+  border-left: 1px solid;
+  margin-right: 150px;
+  width: 100px;
+  height: 45px;
+}
+
+.btnAdd{
+  width: 150px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.orderList{
+  border: 1px solid;
+  width: 300px;
+  font-size: 24px;
+}
+.orderList2{
+  border: 1px solid;
+  border-left: 0;
+  width: 300px;
+  font-size: 24px;
+}
+
+.orderSpace{
+  margin-top: 20px;
+}
+
+.accountDetails{
+  margin:20px;
+  width: 500px;
+}
+
+.aclabel{
+  margin-bottom: 20px;
+}
+
+.accountCheck{
+  margin-left: 20px;
+}
+
+.circular-button {
+  width: 160px; 
+  height: 160px;
+  border-radius: 50%; 
+  color: white;
+  text-align: center;
+  line-height: 40px; 
+  cursor: pointer; 
+}
+
+.btnCircle{
+  margin-top: 100px;
+}
+
+.AuditModel{
+  border: 1px solid;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.AuditList{
+  border: 1px solid;
+  border-top: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.AuditListName{
+  border-right: 1px solid;
+  width: 200px;
+  text-align: center;
+}
+
+.AuditListDate{
+  border-right: 1px solid;
+  width: 100px;
+  text-align: center;
+}
+
+.AuditListhour{
+  border-right: 1px solid;
+  width: 100px;
+  text-align: center;
+}
+
+.AuditAction{
+  width: 900px;
+  text-align: center;
+}
+
+.productSpace{
+  margin-left: 100px;
+}
+
+.section {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.material, .step {
+  margin: 0; 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+.material {
+  background-color: #f0f0f0; 
+}
+
+.step {
+  background-color: #e0e0e0; 
+}
+
+.invoice-table-container {
+  margin: 20px;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-table th, .invoice-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.invoice-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.invoice-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.invoice-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.invoice-table-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.salary-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.box-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.box-content {
+  font-size: 18px;
+}
+

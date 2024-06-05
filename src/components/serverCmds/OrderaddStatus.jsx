@@ -1,0 +1,28 @@
+export const AddOrderStatus = (title,amount,clientsName,time,status) => {
+
+    const fetchData = async () => {
+        const formData = new FormData();
+        formData.append('title', title);
+        formData.append('amount', amount);
+        formData.append('clientsName', clientsName);
+        formData.append('time', time);
+        formData.append('status', status);
+
+        try {
+            const response = await fetch('http://localhost:3001/insert/orderStatus', {
+              method: 'POST',
+              body: formData,
+            });
+      
+            if (response.ok) {
+              console.log('Picture uploaded successfully!');
+            } else {
+              console.error('Failed to upload.');
+            }
+          } catch (error) {
+            console.error('Error uploading:', error);
+          }
+        };
+  
+    return fetchData();
+}

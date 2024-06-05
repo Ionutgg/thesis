@@ -1,0 +1,62 @@
+/*nu e folosit deoarece nu a mers import-ul*/
+.page {
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logoSection {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .companyName {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .invoiceDetails {
+    text-align: right;
+  }
+  
+  .line {
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .section {
+    margin: 10px;
+    padding: 10px;
+    flex-grow: 1;
+  }
+  
+  .productLabels {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  
+  .productLabel {
+    font-weight: bold;
+  }
+  
+  .productPrice {
+    text-align: right;
+    flex: 1;
+  }
+  
